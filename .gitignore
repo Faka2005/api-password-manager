@@ -1,0 +1,73 @@
+# =========================
+# 📦 Node.js / Express API
+# =========================
+
+# Dépendances
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environnements
+.env
+.env.local
+.env.*.local
+
+# Builds / Distributions
+dist/
+build/
+coverage/
+
+# Logs
+logs/
+*.log
+*.out
+*.pid
+*.seed
+*.pid.lock
+
+# Caches
+.cache/
+.temp/
+.tmp/
+.nyc_output/
+.vscode-test/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Éditeurs
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Test outputs
+test-results/
+coverage-final.json
+
+# =========================
+# ⚙️ Custom CampusConnect
+# =========================
+
+# Exclure les fichiers sensibles
+mongo-key.json
+secret.key
+config.json
+
+# Ne pas versionner les fichiers de production
+*.bak
+*.old
+*.zip
+*.tar.gz
+
+# Si tu fais des screenshots ou assets
+assets/
+uploads/
